@@ -1,0 +1,93 @@
+body{
+    background-image:url( img/watermark.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+.header{
+    text-align: center;
+    margin-top: 70px;
+    text-shadow:  3px 2px 3px rgb(255, 255, 255);
+}
+fieldset{
+   margin-left: 515px;
+    padding-left: 35px;
+    padding-right: 35px;
+   width: fit-content;
+   height:fit-content;
+  border-color: rgb(0, 0, 0);
+  border-radius: 25px;
+}
+.boxtopic{
+    font-variant: small-caps;
+    color: rgb(0, 0, 0);
+   font-size: 25px;
+   border-radius: 25px;
+}
+.user{
+    font-size:15px;
+    text-transform: uppercase;
+    color: rgb(2, 2, 2);
+}
+.password{
+    font-size:15px;
+    text-transform: uppercase;
+    color: rgb(2, 2, 2);
+}
+
+
+.box1{
+    margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  border-color: chartreuse;
+}
+.box2{
+    margin-top: 10px;
+  padding: 5px 5px 5px 5px;
+  border-radius: 15px;
+  border-color:chartreuse ;
+}
+.box1:hover{
+    background-color: black;
+    color: white;
+    border-color: chartreuse;
+}
+.box2:hover{
+    background-color: black;
+    color: white;
+    border-color: chartreuse;
+}
+.Forgot{
+    float: right;
+    position: relative;
+}
+.btn{
+   background: none;
+   border-radius: 15px;
+   
+   color: #000000;
+   padding: 5px 70px 5px 70px;
+ }
+ .btn:hover{
+    background-color:greenyellow ;
+    color: blue;
+    border-color: rgb(0, 0, 0);
+ }
+ .Sign{
+    font-size: small;
+    text-align: center;
+ }
+.cc a{
+    font-size: larger;
+    padding: 2px;
+    margin: 10px;
+}
+.cc a:hover{
+    background-color: rgb(2, 2, 2);
+    border-radius: 10px;
+   color:red;
+}
+fieldset:hover{
+    box-shadow: 1px 1px 5px red;
+}
